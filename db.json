@@ -1,0 +1,139 @@
+{
+  "content": {
+    "sections": [
+      {
+        "body": [
+          {
+            "text": "This is text that might include html style links. These links will be for definitions and references.",
+            "type": "text"
+          },
+          {
+            "id": "image_id",
+            "type": "image"
+          },
+          {
+            "mml": "mml content as a string",
+            "type": "equation"
+          },
+          {
+            "html": "html content as string",
+            "type": "tables"
+          },
+          {
+            "text": "There can be more than one text or asset body element in each section.",
+            "type": "text"
+          }
+        ],
+        "title": "The main title for the main section",
+        "number": "1",
+        "sections": [
+          {
+            "body": [
+              {
+                "text": "This is text that might include html style links. These links will be for definitions and references.",
+                "type": "text"
+              },
+              {
+                "id": "image_id",
+                "type": "image"
+              },
+              {
+                "mml": "mml content as a string",
+                "type": "equation"
+              },
+              {
+                "html": "html content as string",
+                "type": "tables"
+              },
+              {
+                "text": "There can be more than one text or asset body element in each section.",
+                "type": "text"
+              }
+            ],
+            "title": "The title for first sub section",
+            "number": "1.2",
+            "sections": [
+              {
+                "body": [
+                  {
+                    "text": "This is text that might include html style links. <p>These links will be for definitions and references.</p>",
+                    "type": "text"
+                  },
+                  {
+                    "id": "image_id",
+                    "type": "image"
+                  },
+                  {
+                    "mml": "mml content as a string",
+                    "type": "equation"
+                  },
+                  {
+                    "html": "html content as string",
+                    "type": "tables"
+                  },
+                  {
+                    "text": "There can be more than <b>one text or asset body</b> element in each section.",
+                    "type": "text"
+                  }
+                ],
+                "title": "The title for first sub sub section",
+                "number": "1.2.1",
+                "sections": []
+              }
+            ]
+          },
+          {
+            "body": [
+              {
+                "text": "This is text that might include html style links. These links will be for definitions and references.",
+                "type": "text"
+              },
+              {
+                "id": "image_id",
+                "type": "image"
+              },
+              {
+                "mml": "mml content as a string",
+                "type": "equation"
+              },
+              {
+                "html": "html content as string",
+                "type": "tables"
+              },
+              {
+                "text": "There can be more than one text or asset body element in each section.",
+                "type": "text"
+              }
+            ],
+            "title": "The title for second sub section",
+            "number": "1.3",
+            "sections": []
+          }
+        ]
+      }
+    ],
+    "definitions": []
+  },
+  "metadata": {
+    "id": "1stdID",
+    "code": "The code of the Standard",
+    "title": "The title of the standard",
+    "version": "A value representing the version of the standard",
+    "category": "The family of standards the standard belongs to",
+    "description": "A longer text block./nThis might include multiple paragraphs as new line breaks/nIt will be shown on the about a standard page.",
+    "remote_asset_manifest": [
+      {
+        "id": "image_id",
+        "type": "image"
+      },
+      {
+        "id": "image_id 2",
+        "type": "image 2"
+      },
+      {
+        "id": "image_id 3",
+        "type": "image 3"
+      }
+    ]
+  }
+}
